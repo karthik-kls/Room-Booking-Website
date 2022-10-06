@@ -1,0 +1,13 @@
+.roomshow-01{
+    display: flex;
+}
+.priceshow-01{
+    display: flex;
+    gap: 10px;
+}
+.roomshow{
+    font-weight: 600;
+}
+.priceshow{
+    font-weight: 600;
+}

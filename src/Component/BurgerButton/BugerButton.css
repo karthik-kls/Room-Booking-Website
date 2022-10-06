@@ -1,0 +1,73 @@
+.burgerselected{
+    color: orange;
+    /* border-bottom: 2px solid orange ; */
+    text-decoration: none;
+}
+.burgerlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.slidebar{
+    border-left: 1px solid white;
+    background-color: rgb(255, 255, 255 ,0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 75px;
+    right: 0%;
+    height: 37%;
+    width: 41%;
+    /* transition: margin-left .5s; */
+    padding: 20px;
+    
+
+    
+}
+.slidebartext{
+    font-size: 20px;
+    margin-top: 10px;
+    display: grid;
+    gap: 16px;
+}
+.adminslide{
+    /* display: flex; */
+    align-items: center;
+    gap: 7px;
+    font-size: 17px;
+    /* display: none; */
+}
+.icon3{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    display: none;
+    cursor: pointer;
+}
+.iconppl{
+    display: none;
+}
+.name2{
+    display: none;
+}
+.burgerlink:hover{
+    color:white;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .adminslide{
+
+        display: block;
+    }
+    .icon3{
+
+        display: block;
+    }
+    .iconppl,.name2{
+        display: block;
+    }
+
+    
+    
+}

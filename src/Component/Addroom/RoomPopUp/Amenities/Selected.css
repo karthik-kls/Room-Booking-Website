@@ -1,0 +1,19 @@
+.rountlabel{
+    display: flex;
+    gap: 20px;
+    /* background: white; */
+    margin: 20px;
+    justify-content: space-between;
+    border: 2px solid orange;
+    border-radius: 20px;
+    width: 142px;
+    /* margin: 32px; */
+    padding: 5px;
+}
+.selectdata{
+    display: flex;
+    flex-wrap: wrap;
+}
+.addselect{
+    border-color: lightgrey;
+}

@@ -1,0 +1,52 @@
+.Bookigstable,.datasbookings{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.bookingtext{
+    color: blue;
+    font-weight: 600;
+}
+.bookslist{
+    height: 306px;
+    overflow: scroll;
+}
+.booktabletitle{
+    background-color: white;
+    margin-top: 24px;
+}
+.fstname{
+    font-weight: 600;
+}
+.green{
+    font-weight: 600;
+}
+@media only screen and (max-width: 893px) {
+    .Bookigstable{
+        font-size: 13px;
+}
+}
+@media only screen and (max-width: 758px) {
+    .Bookigstable{
+        font-size: 11px;
+}
+}
+@media only screen and (max-width: 689px) {
+
+    .Bookigstable{
+    display: none;
+}
+.datasbookings{
+    display: grid;
+    grid-template-columns: none;
+}
+.bookingbox{
+    margin:0;
+    box-shadow: none;
+}
+
+
+
+}

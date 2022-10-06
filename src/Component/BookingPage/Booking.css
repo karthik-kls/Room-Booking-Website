@@ -1,0 +1,51 @@
+.bookingtitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+.bookingbox{
+    background-color: rgb(239, 239, 239);
+    margin: 42px;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 4px 1px white;
+    
+}
+.bookingtitlediv{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.newbknbtn{
+ color: orange;  
+ text-decoration: none; 
+}
+.getbttn{
+
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    color: orange;
+}
+
+
+.boxdesign{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 44%;
+    border: 0.5px solid lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.searchbook{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+input:focus{
+    outline: none;
+}
